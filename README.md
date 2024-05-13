@@ -1,4 +1,4 @@
-<h1 align="left">Trabalho Padrões de Projeto - BCC304</h1>
+<h1 align="left">Trabalho Padrões de Projeto</h1>
 
 ###
 
@@ -6,15 +6,15 @@
 
 ###
 
-<h2 align="left">I Princípios selecionados</h2>
+<h2 align="left">I Padrões escolhidos</h2>
 
 ###
 
-<p align="left">1 - Princípio da Responsabilidade Única (Single Responsibility Principle)<br>2 - Princípio da substituição de Liskov (Liskov Substitution Principle)<br>3 -  Princípio da Segregação da Interface (Interface Segregation Principle)<br>4 - Princípio de Demeter (Principle of Least Knowledge)<br><br>Cada princípio possui dois exemplos de sua aplicação, sendo um correto e um inadequado.</p>
+<p align="left">1 - Observer<br>2 - Adapter<br>3 -  Prototype<br><br>Como indicado pelo professor, os padrões foram retirados do site https://refactoring.guru/pt-br<br> Cada padrão apresentara um exemplo e um diagrama UML</p>
 
 ###
 
-<h2 align="left">I Responsabilidade Única</h2>
+<h2 align="left">I Observer</h2>
 
 ###
 
@@ -25,7 +25,7 @@ Quando uma classe tem múltiplas responsabilidades, ela se torna mais difícil d
 
 ###
 
-<h2 align="left">I Substituição de Liskov</h2>
+<h2 align="left">I Adapter</h2>
 
 ###
 
@@ -33,7 +33,7 @@ Quando uma classe tem múltiplas responsabilidades, ela se torna mais difícil d
 
 ###
 
-<h2 align="left">I Segregação da Interface</h2>
+<h2 align="left">I Prototype</h2>
 
 ###
 
@@ -41,11 +41,5 @@ Quando uma classe tem múltiplas responsabilidades, ela se torna mais difícil d
 
 ###
 
-<h2 align="left">I Demeter</h2>
-
-###
-
-<p align="left">Segundo a lei de Demeter deve-se evitar interações excessivas com objetos indiretos, o código deve dialogar sempre diretamente com os objetos que deseja interagir. Essa abordagem ajuda a reduzir a complexidade do código, facilitando a manutenção e promovendo a reutilização de componentes.
-Em uma anologia simples, poderiamos considerar o ato de acessar um arquivo dentro de múltiplas pastas aninhadas uma violação, representando um objeto sendo acessado através de outros. Porém, ao criar um atalho para o arquivo na área de trabalho, resolvemos a violação, permitindo um acesso simples e eficiente ao objeto sem depender dos demais.</p>
 
 ###
