@@ -25,7 +25,7 @@ Solução:<br>
 O padrão Observer visa criar uma solução prática e eficiente, atribuindo uma "lista de inscrição" para os objetos observadores, dessa forma, eles serão notificados apenas quando ocorrerem as alterações de estado em que estão inscritos.<br>
 <br>
 Exemplo:
-![ObserverUML](a.png)  
+![ObserverUML](https://github.com/CosmicSheep42/padroes-projeto/blob/main/a.png)  
 </p>
 
 ###
