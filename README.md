@@ -25,7 +25,11 @@ Solução:<br>
 O padrão Observer visa criar uma solução prática e eficiente, atribuindo uma "lista de inscrição" para os objetos observadores, dessa forma, eles serão notificados apenas quando ocorrerem as alterações de estado em que estão inscritos.<br>
 <br>
 Exemplo:<br>
-![a](https://github.com/CosmicSheep42/padroes-projeto/blob/main/a.png)
+Em um aplicativo hipotético, criado para notificar seus usuários sobre eventos relacionados à franquia Pokémon um Observer poderia ser implementado para possibilitar o utilizador a se inscrever em tópicos objetivos, como jogos específicos, mídias que se interessa e região onde vive, para ser notificado apenas dos eventos pertinentes.<br>
+<br>
+No diagrama há uma classe "AppADM" que pode criar objetos "Eventos", em suas atribuições, todo evento possúi uma mídia (Jogos ou TCG), uma organização (Oficial ou Comunidade), uma localização (JP, EU, NA ou Latam). A classe "observer" deve pegar essas atribuições dos objetos Evento e notificar objetos usuários que possuam correspondências com essas atribuições.
+<br>
+<img src="a.png">
 </p>
 
 ###
