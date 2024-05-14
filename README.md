@@ -18,9 +18,14 @@
 
 ###
 
-<p align="left"> Esse princípio pode ser compreendido como o ditado popular "Quem faz tudo ao mesmo tempo não faz nada direito", de acordo com ele, toda classe dentro do código deve possuir uma única responsabilidade. Essa abordagem ajuda a manter o código coeso, modular e de fácil compreensão. 
+<p align="left"> Problema: <br>
+Frequentemente um código pode precisar notificar múltiplos objetos sobre alterações de estado de um ou múltiplos objetos. Esse fluxo de notificações pode criar conflitos e tornar o código menos compreensível.<br>
+<br>
+Solução:<br>
+O padrão Observer visa criar uma solução prática e eficiente, atribuindo uma "lista de inscrição" para os objetos observadores, dessa forma, eles serão notificados apenas quando ocorrerem as alterações de estado em que estão inscritos.<br>
+<br>
+Exemplo:
   
-Quando uma classe tem múltiplas responsabilidades, ela se torna mais difícil de manter e evoluir ao longo do tempo, pois, qualquer mínimo erro pode resultar em múltiplos problemas em diversas funções dentro do código. Dividir funcionalidades em classes separadas com responsabilidades únicas aumenta a flexibilidade do código e facilita a reutilização em diferentes contextos.
 </p>
 
 ###
