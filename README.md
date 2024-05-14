@@ -45,7 +45,10 @@ Solução:<br>
 O Adapter visa agir como um "tradutor", um objeto especial no código que recebe informações de uma parte e as adapta para que possam ser processadas pela outra. Sendo um objeto com essa função exclusiva, torna-se mais fácil modificar a "tradução" caso venha a ser necessário.<br>
 <br>
 Exemplo:<br>
-  
+Ao realizar a transição entre consoles, do 3DS para o Switch, a Pokémon Company, em parceria com a ILCA, desenvolveram um novo sistema de armazenamento digital de Pokémon, o Pokémon Home, substituindo o antigo Bank. Nesse processo, os usuários precisaram realizar a migração de seus monstrinhos entre os diferentes sistemas.<br>
+<br>
+Nesse contexto, considerando que cada sistema foi desenvolvido por empresas diferentes, para dispositivos diferentes e com perspectivas distintas, considerando que o Home visa ser mais abrangente, tendo suporte para o Pokémon Go, uma interface Adapter poderia ser utilizada para auxiliar na migração de dados entre os diferentes sistemas.<br>
+<img src="b.png"> 
 </p>
 
 ###
@@ -54,7 +57,19 @@ Exemplo:<br>
 
 ###
 
-<p align="left"></p>
+<p align="left">Problema:<br>
+Em sistemas complexos, ao lidar com a criação de mútliplos objetos que compartilham de uma mesma estrutura básica, pode ser difícil criar novas instâncias sem causar redundâncias no código ou criar classes adicionais para cada variação.<br>
+<br>
+Solução:<br>
+O implementação de uma intrface Prototype visa resolver esse problema permitindo a criação de novos objetos por meio de um objeto pré-estabelecido, chamado protótipo. Em vez de criar uma nova instância do zero e definir todos os atributos novamente, o padrão Prototype clona o protótipo e permite fazer ajustes específicos, quando necessário, no objeto clonado.<br>
+<br>
+Exemplo:<br>
+Exemplo:
+Na criação de um fangame de Pokémon, podemos utilizar o Prototype para gerar monstrinhos selvagens de forma eficiente partindo de um protótipo pré estabelecido com as variáveis necessárias (tipo1, tipo2, level, moveset, BST, IVs, Hability, Helditem, Gender, Pokedexnumber, BoolShiny).<br>
+<br>
+Dessa forma, pré estabelecendo condições específicas, é possível que, ao entrar em uma grama específica no jogo, sejam gerados Pokémon selecionados com variáveis pré definidas, de forma aleatória.<br>
+  
+</p>
 
 ###
 
