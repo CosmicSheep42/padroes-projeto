@@ -34,7 +34,15 @@ Exemplo:
 
 ###
 
-<p align="left">Pela definição desse princípio, uma classe não pode conter métodos que não englobem a totalidade de suas subclasses. Uma classe "ave" não pode conter o atributo "voar", pois anularia as subclasses "pinguim", "avestruz", "galinha", pois não compartilham deste método. </p>
+<p align="left">Problema:<br>
+Na elaboração de códigos ou sistemas mais complexos, por exemplo, um código utilizando uma base de dados de terceiro, podem ocorrer situações onde interfaces não consigam comunicar entre si, criando incompatibilidade entre partes do sistema. <br>
+<br>
+Solução:<br>
+O Adapter visa agir como um "tradutor", um objeto especial no código que recebe informações de uma parte e as adapta para que possam ser processadas pela outra. Sendo um objeto com essa função exclusiva, torna-se mais fácil modificar a "tradução" caso venha a ser necessário.<br>
+<br>
+Exemplo:<br>
+  
+</p>
 
 ###
 
@@ -42,7 +50,7 @@ Exemplo:
 
 ###
 
-<p align="left">De acordo com esse princípio, nenhuma classe deve depender de métodos que não utilize. Usando por exemplo um software de edição de imagens, como o photoshop, diferentes usuários, reprensentando nossas classes, tem necessidades de interfaces diferentes, um fotógrafo profissional não utiliza as mesmas ferramentas, representando os métodos, que um desenhista. Dessa forma, criando diferentes interfaces customizadas e adaptadas para cada classe, facilitamos o entendimento e modificação do código para alterações em cada classe.</p>
+<p align="left"></p>
 
 ###
 
