@@ -24,8 +24,8 @@ Frequentemente um código pode precisar notificar múltiplos objetos sobre alter
 Solução:<br>
 O padrão Observer visa criar uma solução prática e eficiente, atribuindo uma "lista de inscrição" para os objetos observadores, dessa forma, eles serão notificados apenas quando ocorrerem as alterações de estado em que estão inscritos.<br>
 <br>
-Exemplo:
-![ObserverUML](https://github.com/CosmicSheep42/padroes-projeto/blob/main/a.png)  
+Exemplo:<br>
+![a](https://github.com/CosmicSheep42/padroes-projeto/blob/main/a.png)
 </p>
 
 ###
