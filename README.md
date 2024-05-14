@@ -68,7 +68,7 @@ Exemplo:
 Na criação de um fangame de Pokémon, podemos utilizar o Prototype para gerar monstrinhos selvagens de forma eficiente partindo de um protótipo pré estabelecido com as variáveis necessárias (tipo1, tipo2, level, moveset, BST, IVs, Hability, Helditem, Gender, Pokedexnumber, BoolShiny).<br>
 <br>
 Dessa forma, pré estabelecendo condições específicas, é possível que, ao entrar em uma grama específica no jogo, sejam gerados Pokémon selecionados com variáveis pré definidas, de forma aleatória.<br>
-  
+<img src="c.png">
 </p>
 
 ###
